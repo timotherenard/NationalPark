@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+header{
+	width:100%;
+	background-color:#ffcc8f;
+	height:20vh;
+}
+
+h1{
+	float:left;
+	width:30%;
+	padding-left:15px;
+}
+
+nav{
+	background-color:#ffcc8f;
+}
+
+
+#navigationbar{
+	display:inline-block;
+	float:right;
+	clear:both;
+	margin-right:5px;
+}
+#navigationbar ul{
+	list-style:none;
+}
+
+#burgermenu{
+	float:right;
+	height: 15vh;
+	width:auto;
+	margin-right:5px;
+	
+}
+
+#navigationbar a{
+	display:block;
+	border:solid;
+	width:15vw;
+	height:auto;
+	text-align:center;
+	padding:5px;
+	background-color:#b2a9ff;
+	text-decoration:none;
+	clear:both;
+}
+	
+.active a{
+	visibility:visible;
+
+}
+.passive a{
+	visibility:hidden;
+}
+
+section{
+	padding:10px;
+}
+
+#reunionmap{
+	width:90vw;
+	height:45vh;
+	margin-left:15px;
+}
+
+
+
+
+@media screen and (min-width:800px){
+	header{
+		height:20vh;
+	}
+	
+	#burgermenu{
+		display:none;
+	}
+	#navigationbar {
+		display:inline-block;
+		width:60vw;
+		clear:none;
+	}
+	#navigationbar a{
+		display:inline;
+	}
+	
+
+	.passive li{
+		display:inline-block;
+		padding-top:4vh;
+		
+	}
+	.passive a{
+		visibility:visible;
+		display:inline;
+		border:solid;
+		text-align:center;
+		margin-right:1vw;
+		margin-left:1vw;
+		background-color:#b2a9ff;
+		text-decoration:none;
+		font-size:125%;
+
+	}
+	.passive li:last-of-type{
+		padding-right:5%;
+	}
+	#reunionmap{
+		width:50vw;
+		float:right;
+		margin-top:15px;
+		margin-right:10px;
+		height:60vh;
+	}
+
+	section{
+		width:40vw;
+		display:inline-block;
+	}
+	
+
+
+}
+	
+	
+	
+	
+	
+	
+	
