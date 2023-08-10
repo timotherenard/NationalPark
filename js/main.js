@@ -12,3 +12,8 @@ function responsivemenu(){
 function menuoff(){
 	document.getElementById("navigationbar").className="passive";
 }
+
+
+function showProperties(element){
+  document.getElementById('imgDescription').innerHTML = element.alt;
+}

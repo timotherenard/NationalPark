@@ -69,6 +69,12 @@ section{
 	margin-left:15px;
 }
 
+.ParkPhoto{
+	width:95vw;
+	margin-left:5px;
+
+}
+
 
 
 
@@ -122,9 +128,17 @@ section{
 		width:40vw;
 		display:inline-block;
 	}
-	
+	.ParkPhoto{
+		display:inline-block;
+		width:20vw;
+		clear:both;
+		margin: 15px 2%;
+	}
 
-
+	#photo{
+		display:block;
+		clear:both;
+	}
 }
 	
 	
