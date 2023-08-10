@@ -64,6 +64,7 @@ nav{
 section{
 	padding:10px;
 	text-align:justify;
+	margin-left:15px;
 }
 
 #reunionmap{
@@ -79,7 +80,9 @@ section{
 }
 
 
-
+nav #thispage{
+	border-color:#da2a2a;
+}
 
 @media screen and (min-width:800px){
 	header{
